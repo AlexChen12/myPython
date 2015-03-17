@@ -14,4 +14,4 @@ class TestT(object):
 	def test(self):
 		warnings.warn("", DeprecationWarning)
 		sys.path
-		os.path
+		os.path 2323
