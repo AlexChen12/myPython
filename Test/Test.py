@@ -10,4 +10,4 @@ import os
 
 def readfile(filename):
 	f=open(filename,'r')
-	line
+	line ttttt
