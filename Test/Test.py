@@ -1,13 +1,17 @@
 # Script Name: Test.py
 # Author     : AlexChen
-# Last Modified: 
+# Last Modified:
 # Version    : 1.0
 
 import sys
 import os
+import warnings
 
 # for test
 
-def readfile(filename):
-	f=open(filename,'r')
-	line ttttt12121
+
+class TestT(object):
+	def test(self):
+		warnings.warn("", DeprecationWarning)
+		sys.path
+		os.path

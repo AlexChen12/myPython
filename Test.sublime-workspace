@@ -3,29 +3,14 @@
 	{
 		"selected_items":
 		[
+			[
+				"p",
+				"path"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"contents": "# Script Name: Test.py\n# Author     : AlexChen\n# Last Modified:\n# Version    : 1.0\n\nimport sys\nimport os\n\n# for test\n\n\ndef readfile(filename):\n	f = open(filename,'r')\nline",
-			"file": "Test/Test.py",
-			"file_size": 182,
-			"file_write_time": 130710378678876933,
-			"settings":
-			{
-				"buffer_size": 171,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "import sublime, sublime_plugin\n\nclass ExampleCommand(sublime_plugin.TextCommand):\n	def run(self, edit):\n		self.view.insert(edit, 0, \"Hello, World!\")\n",
-			"settings":
-			{
-				"buffer_size": 149,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -54,6 +39,7 @@
 	},
 	"file_history":
 	[
+		"/E/PyProject/Test/Test.py",
 		"/C/Users/Henry/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Henry/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
 	],
@@ -90,65 +76,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Test/Test.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								162,
-								162
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 149,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								129,
-								129
-							]
-						],
-						"settings":
-						{
-							"default_dir": "C:\\Users\\Henry\\AppData\\Roaming\\Sublime Text 3\\Packages\\User",
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
